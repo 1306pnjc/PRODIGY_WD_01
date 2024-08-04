@@ -1,0 +1,122 @@
+body{
+  font-family:  Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 1080px;
+  margin-top: 75px;
+  background: url(Images/watch.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(24, 44, 45);
+  top: 0;
+  left: 0px;
+  right: 0;
+  z-index: 100;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.logo{
+ margin-right: auto;
+}
+
+.pg-logo{
+  height: 50px;
+  float: left;
+  
+}
+
+.nav ul{
+  display: flex;
+  list-style-type: none;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.nav ul li{
+  padding: 0 25px;
+  
+}
+
+.nav ul li a{
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.nav ul li a:hover{
+  background-color: rgb(113, 215, 220);
+  border-radius: 10px;
+  padding: 5px;
+}
+.nav ul li a:active{
+  opacity: 0.80;
+}
+
+.access-buttons{
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.Log-in,
+.Sign-up{
+  border-radius: 2px;
+  padding: 8px;
+  border-radius: 120px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+.Log-in{
+  border: none;
+  margin-right: 10px;
+  background-color: lightsteelblue;
+  color: black;
+  transition: background-color 0.15s,
+  opacity 0.05s;
+}
+
+.Sign-up{
+  color: whitesmoke;
+  background-color: transparent;
+  border: solid;
+  border-width: 1px;
+  transition: opacity 0.05,
+  box-shadow 0.15s,
+  background-color 0.15s;
+}
+
+.Log-in:hover{
+  background-color: rgb(119, 192, 217);
+}
+
+.Sign-up:hover{
+  box-shadow: 5px 5px 10px rgb(87, 148, 150);
+  background-color: rgb(126, 185, 187);
+}
+
+.Log-in:active{
+  opacity: 0.85;
+}
+
+.Sign-up:active{
+  color: rgb(12, 18, 19);
+}
+
+.header.scrollPage{
+  background-color: rgb(6, 10, 10);
+  
+}
+
+.nav.scrollPage ul li a{
+  color: white;
+}
+
