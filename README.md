@@ -1,3 +1,33 @@
+# 06 – Rebranded Student Project
+
+A fresh, playful take on an old project – originally built 2–3 years ago, now redesigned with a modern “student aesthetic”.  
+Soft gradients, rounded elements, glass‑morphism, and a touch of whimsy. The vibe is friendly, experimental, and just a little bit sketchy (in the best way).
+
+![screenshot placeholder](./Images/screenshot.png)  
+*(Add a screenshot of your own to make it shine!)*
+
+## ✨ Features
+
+- **Sticky header with glass effect** – blurs the background, changes colour on scroll.
+- **Smooth navigation** – hover animations, pill‑shaped buttons.
+- **Login / Sign‑up buttons** – with playful shadows and transitions.
+- **Arrow key scrolling** – press ↑ or ↓ to move the page in small steps (prevents default cursor movement).
+- **Responsive design** – looks good on mobile too (navigation adjusts).
+- **Hero section + card grid** – sample content that shows off the new aesthetic.
+- **Background image overlay** – the original `watch.jpeg` is preserved but softened with a gradient overlay for better readability.
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3 (Flexbox, backdrop‑filter, transitions)
+- JavaScript (vanilla – scroll event, key handling)
+- [Google Fonts](https://fonts.google.com/) – Inter & Caveat
+- [Font Awesome](https://fontawesome.com/) – icons (optional but adds charm)
+
+## 🚀 Getting Started
+
+1. **Clone or download** this repository.
+2. Make sure you have the following folder structure:
 
 3. Open `index.html` in your favourite browser – no server needed.
 
